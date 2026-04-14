@@ -1,0 +1,51 @@
+muH2=-31.818789868560483
+muH2O=-468.4472305388307
+muO2=-866.6727604533233
+  
+muZnO=-5563.881992*27.2114
+muZnS=-6864.59368219198*27.2114
+muZnSe=-6790.5153695988*27.2114
+  
+muZnO_OH=-151852.09867977264
+muZnO_O=-151834.7115600302
+muZnO_OOH=-152286.7848513116  
+muZnS_OH=-187245.12782833775
+muZnS_O=-187229.1793597699
+muZnS_OOH=-187678.99355979398
+muZnSe_OH=-185229.60560025138
+muZnSe_O=-185213.37756840384
+muZnSe_OOH=-185663.2661624388
+
+Delta1adsZnO=muZnO_OH - muZnO - 0.5*muH2-0.5*muO2
+Delta1adsZnS=muZnS_OH - muZnS- 0.5*muH2-0.5*muO2
+Delta1adsZnSe=muZnSe_OH - muZnSe - 0.5*muH2-0.5*muO2
+
+Delta2adsZnO=muZnO_O - muZnO - 0.5*muO2
+Delta2adsZnS=muZnS_O - muZnS - 0.5*muO2
+Delta2adsZnSe=muZnSe_O - muZnSe  - 0.5*muO2
+
+Delta3adsZnO=muZnO_OOH - muZnO - 0.5*muH2-muO2
+Delta3adsZnS=muZnS_OOH - muZnS - 0.5*muH2-muO2
+Delta3adsZnSe=muZnSe_OOH - muZnSe - 0.5*muH2-muO2
+
+print(Delta1adsZnO)
+print(Delta1adsZnS)
+print(Delta1adsZnSe)
+
+print(Delta2adsZnO)
+print(Delta2adsZnS)
+print(Delta2adsZnSe)
+
+print(Delta3adsZnO)
+print(Delta3adsZnS)
+print(Delta3adsZnSe)
+
+#-1.83446750288374
+#-0.6775295779424368
+#-0.9298967896519343
+#-0.3567426947334411
+#-0.6384559443900457
+#-0.6112598763934898
+#-3.1842588151752125
+#-1.2068808075104016
+#-1.2540787504234459
