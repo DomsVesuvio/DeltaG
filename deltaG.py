@@ -30,11 +30,20 @@ DeltaG1_ZnSe=0.5*muH2 + muZnSe_OH - muZnSe - muH2O
 DeltaG2_ZnSe=0.5*muH2 + muZnSe_O - muZnSe_OH
 DeltaG3_ZnSe=0.5*muH2 + muZnSe_OOH - muZnSe_O-muH2O
 DeltaG4_ZnSe=0.5*muH2 + muZnSe + muO2 - muZnSe_OOH-1.85
-  
-print(DeltaG1_ZnO)
-print(DeltaG2_ZnO)
-print(DeltaG3_ZnO)
-print(DeltaG4_ZnO)
+
+
+Delta1adsZnO=muZnO_OH - muZnO
+Delta1adsZnS=muZnS_OH - muZnS
+Delta1adsZnSe=muZnSe_OH - muZnSe
+
+#print(DeltaG1_ZnO)
+#print(DeltaG2_ZnO)
+#print(DeltaG3_ZnO)
+#print(DeltaG4_ZnO)
+
+print(Delta1adsZnO)
+print(Delta1adsZnS)
+print(Delta1adsZnSe)
 
 #ZnO pristino
 #1.4575929407263857
